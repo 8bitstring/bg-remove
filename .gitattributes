@@ -1,0 +1,9 @@
+# Set default behavior, in case users don't have core.autocrlf set.
+* text=auto
+
+# Ensure shell scripts always retain Unix LF line endings
+*.sh text eol=lf
+*.command text eol=lf
+
+# Windows batch files need CRLF
+*.bat text eol=crlf
